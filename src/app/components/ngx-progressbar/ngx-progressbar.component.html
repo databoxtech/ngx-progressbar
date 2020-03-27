@@ -1,0 +1,14 @@
+<div class="progress" [style.minHeight]="minheightvalue" [style.height]="setHeight()"  [style.background-color]="barcolor">
+  <div class="progress-bar"
+    [style.width.%]="getPercentValue()"
+  [attr.aria-valuenow]="value" aria-valuemin="0" [attr.aria-valuemax]="maxvalue" [style.background-color]="color">
+    <div class="showTextValue-main-div" [style.minHeight]="minheightvalue" [style.height]="setHeight()" >
+      <div id="showtext" class="showtext">
+        <p *ngIf="text"  >{{text}}</p>
+      </div>
+      <div id="showvalue" class="showvalue" [style.height]="setHeight()">
+        <p *ngIf="showValue" >{{getPercentValue()}}%</p>
+      </div>
+    </div>
+  </div>
+</div>

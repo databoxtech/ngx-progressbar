@@ -1,0 +1,36 @@
+.progress{
+    display: flex;
+    overflow: hidden;
+   // height: 1rem;
+    font-size: .75rem;
+   // background-color: #ced0d2;
+    border-radius: .25rem;
+   // min-height: 1rem;;
+}
+.progress-bar{
+  //  background-color: #28a745!important;
+}
+
+.showtext{
+    color: black;    
+    padding: 5px;
+    width: 70%;
+    display: table-cell;
+    vertical-align: middle;
+}
+.showvalue{
+    width: 25%;
+    text-align: right;
+    vertical-align: middle;
+    font-size: 15px;
+    display: table-cell;
+    padding: 3px;
+    span{
+        color: #3c4248;
+    }
+}
+.showTextValue-main-div{
+    width: 94%;
+    position: absolute;
+    display: table;
+}
