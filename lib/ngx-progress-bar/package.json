@@ -1,5 +1,5 @@
 {
-  "name": "ngx-progress-bar",
+  "name": "@databoxtech/ngx-progress-bar",
   "version": "0.1.0",
   "description": "Dead simple angular progress bar component",
   "author": {
