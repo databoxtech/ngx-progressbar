@@ -8,6 +8,7 @@ import { CommonModule } from '@angular/common';
   imports: [
     CommonModule
   ],
-  exports: [NgxProgressbarComponent]
+  exports: [NgxProgressbarComponent],
+  entryComponents: [NgxProgressbarComponent]
 })
 export class NgxProgressbarModule { }
