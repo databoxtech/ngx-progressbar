@@ -1,5 +1,5 @@
 {
-  "name": "ngx-progressbar",
+  "name": "ngx-progress-bar",
   "version": "0.1.0",
   "description": "Dead simple angular progress bar component",
   "author": {
@@ -19,6 +19,7 @@
     "progressbar"
   ],
   "license": "MIT",
+  "private": false,
   "peerDependencies": {
     "@angular/common": "^9.0.7",
     "@angular/core": "^9.0.7",

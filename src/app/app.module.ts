@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NgxProgressbarModule } from 'lib/ngx-progressbar/src/public-api';
+import { NgxProgressBarModule } from 'lib/ngx-progress-bar/src/public-api';
 
 @NgModule({
   declarations: [
@@ -12,7 +12,7 @@ import { NgxProgressbarModule } from 'lib/ngx-progressbar/src/public-api';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxProgressbarModule
+    NgxProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

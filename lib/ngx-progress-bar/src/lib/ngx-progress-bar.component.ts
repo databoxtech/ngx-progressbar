@@ -52,7 +52,7 @@ import { Component , Input} from '@angular/core';
     }
   `]
 })
-export class NgxProgressbarComponent {
+export class NgxProgressBarComponent {
 
   maxvalue: number = 100;
 

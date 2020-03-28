@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NgxProgressbarComponent } from './ngx-progressbar.component';
+import { NgxProgressBarComponent } from './ngx-progress-bar.component';
 
-describe('NgxProgressbarComponent', () => {
-  let component: NgxProgressbarComponent;
-  let fixture: ComponentFixture<NgxProgressbarComponent>;
+describe('NgxProgressBarComponent', () => {
+  let component: NgxProgressBarComponent;
+  let fixture: ComponentFixture<NgxProgressBarComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NgxProgressbarComponent ]
+      declarations: [ NgxProgressBarComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NgxProgressbarComponent);
+    fixture = TestBed.createComponent(NgxProgressBarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

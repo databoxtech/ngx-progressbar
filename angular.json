@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ngx-progressbar": {
+    "ngx-progress-bar": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ngx-progressbar",
+            "outputPath": "dist/ngx-progress-bar",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -66,18 +66,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ngx-progressbar:build"
+            "browserTarget": "ngx-progress-bar:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ngx-progressbar:build:production"
+              "browserTarget": "ngx-progress-bar:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ngx-progressbar:build"
+            "browserTarget": "ngx-progress-bar:build"
           }
         },
         "test": {
@@ -114,18 +114,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "ngx-progressbar:serve"
+            "devServerTarget": "ngx-progress-bar:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "ngx-progressbar:serve:production"
+              "devServerTarget": "ngx-progress-bar:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "ngx-progressbar",
+  "defaultProject": "ngx-progress-bar",
   "cli": {
     "analytics": "584207af-bed3-4108-880b-8674a0627b2a"
   }
