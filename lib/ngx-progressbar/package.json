@@ -1,6 +1,24 @@
 {
   "name": "ngx-progressbar",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "description": "Dead simple angular progress bar component",
+  "author": {
+    "name": "Chathura Uduwawala",
+    "email": "chathura@databoxtech.com",
+    "url": "https://github.com/uchathura"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/databoxtech/ngx-progressbar"
+  },
+  "homepage": "https://github.com/databoxtech/ngx-progressbar",
+  "keywords": [
+    "angular",
+    "progress",
+    "typescript",
+    "progressbar"
+  ],
+  "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^9.0.7",
     "@angular/core": "^9.0.7",
